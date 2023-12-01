@@ -4,8 +4,6 @@
     box-sizing: border-box;
     margin: 0;
 }
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Oswald', sans-serif; */
 
 .nav-bar{
     height: 80px;
@@ -258,15 +256,93 @@ font-family: 'Oswald', sans-serif; */
     line-height: 1.6;
 }
 
+.sec3-part2{
+    position: relative;
+    margin-top: 140px;
+}
+.sec3-part2-content-container{
+    width: 265px;
+    height: 330px;
+    background-color: #1A1A1A;
+    color: white;
+    position:absolute;
+    bottom: 260px;
+    left: 100px;
+}
+.sec3-part2-content-wrapper{
+    padding: 30px 20px 0 10px;
+}
+.sec3-part2-content-wrapper > p:nth-child(1){
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    line-height: 1.2;
+}
+.sec3-part2-content-wrapper > p:nth-child(2){
+    font-family: 'Open Sans', sans-serif;
+    margin: 40px 0;
+}
+.sec3-hero-img-container{
+    width: 100%;
+    height: 505px;
+    position: relative;
+}   
+.img10{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
-
-
-
-
-
-.section-4{
-    height: 400px;
-    width: 500px;
-    margin-top: 80px;
-    background-color: #454545;
+/* section-4 */
+.sec4-part1{
+    text-align: center;
+    margin: 50px 165px;
+}
+.sec4-part1 > p:nth-child(1){
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.sec4-part1 > p:nth-child(2){
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.6;
+}
+/* -------- */
+.sec4-part2{
+    display: flex;
+    gap: 35px;
+    margin: 50px 0 0 100px;
+}
+.sec4-part2 > div{
+    width: 360px;
+    height: 530px;
+    border: 1px solid #B3B3B3;
+}
+.MAN-interior-img-container{
+    width: 100%;
+    height: 275px;
+}
+.MAN-interior-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.MAN-interior-content-container{
+    margin: 20px 20px 0 20px;
+}
+.MAN-interior-content-container p:nth-child(1){
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    color: #111111;
+    margin: 0 0 10px 0;
+}
+.MAN-interior-content-container p:nth-child(2){
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #111111;
+    line-height: 1.5;
 }
