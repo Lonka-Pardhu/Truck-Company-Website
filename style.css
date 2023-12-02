@@ -30,7 +30,7 @@
 .menu-icon{
     height: 30px;
 }
-
+/* section-1 */
 .section-one-wrapper {
     position: relative;
 }
@@ -70,12 +70,6 @@
 }
 
 /* section2 */
-
-/* .section-two-wrapper{
-    width: 1150px;
-    margin: 0 auto;
-} */
-
 .sec2-content-box-one{
     background-color: white;
     float: left;
@@ -151,9 +145,7 @@
     float:left;
     height: 585px;
     width: 50%;
-    /* display: flex; */
     color: #ffffff;
-    /* flex-direction: column; */
 }
 .sec2-contBox3-inner-wrap{
     margin: 100px 75px 0 100px;
@@ -492,4 +484,23 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+/* footer */
+.footer-container{
+    display: flex;
+    margin: 100px 100px;
+    justify-content: space-between;
+}
+.footer-container > p{
+    font-family: 'Open Sans', sans-serif;
+}
+.contact-socials-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.contact-social-logo{
+    height: 30px;
+    width: 30px;
 }
