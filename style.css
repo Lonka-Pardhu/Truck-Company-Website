@@ -64,6 +64,7 @@
 .img1 {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 /* section2 */
@@ -122,8 +123,8 @@
     background-color: #454545;
 }
 .sec2-cont-box-two-title{
-    font-size: 35px;
-    font-weight: 400;
+        font-size: 35px;
+        font-weight: 400;
     margin: 20px 0;
     font-family: 'Oswald', sans-serif;
 }
@@ -293,6 +294,7 @@
 }
 
 /* section-4 */
+
 .sec4-part1{
     text-align: center;
     margin: 50px 165px;
@@ -345,4 +347,91 @@
     font-size: 14px;
     color: #111111;
     line-height: 1.5;
+}
+
+/* section-5 */
+.section-five-wrapper{
+    position: relative;
+    margin: 60px 0 0 0;
+}
+.sec5-hero-img-container{
+    height: 480px;
+    width: 100%;
+}
+.img14{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* ------- */
+.sec5-left-content{
+    position: relative;
+    left: 100px;
+    top: 30px;
+    width: 535px;
+    height: auto;
+}
+.sec5-left-content-inner-wrap > p:nth-child(1){
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.sec5-left-content-inner-wrap > p:nth-child(2){
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(17, 17, 17);
+}
+.sec5-content-box{
+    position: absolute;
+    right: 100px;
+    top: 265px;
+    height: 410px;
+    width: 560px;
+    background-color: rgb(255, 202, 0);
+}
+.sec5-contBox-inner-wrap{
+    padding: 50px 26px;
+}
+.sec5-contBox-inner-wrap > div:nth-child(1){
+    width: 320px;
+    height: 2px;
+    background-color: #000000;
+}
+.sec5-contBox-inner-wrap > div:nth-child(3){
+    width: 170px;
+    height: 10px;
+    background-color: #000000;
+}
+.sec5-cont-box-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+.sec5-cont-box-para{
+    font-family: 'Open Sans', sans-serif;
+    margin: 35px 0;
+    line-height: 1.6;
+}
+.sec5-contBox-inner-wrap > button{
+    height: 45px;
+    width: 130px;
+    background-color: #111111;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    border: none;
+}
+.sec5-photo-college-container{
+    display: flex;
+    gap: 30px;
+    margin: 80px 100px;
+}
+.sec5-photo-college-container > div{
+    width: 265px;
+    height: 230px;
+}
+.sec5-photo-college-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
